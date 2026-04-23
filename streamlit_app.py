@@ -110,7 +110,7 @@ noofmajorvessels = st.selectbox(
 # PREDICTION LOGIC
 # ======================
 st.write("---")
-if st.button("Predict Heart Health Status"):
+if st.button("Predict"):
 
     # 1. Prepare raw data (order must match training columns)
     input_data = pd.DataFrame([[
