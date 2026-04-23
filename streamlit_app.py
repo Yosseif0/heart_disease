@@ -22,7 +22,7 @@ chestpain_map = {
     3:"type 3: asymptomatic)"   
             }
 
-fastingbloodsugar_map = {0:"Flase", 1:"True"}
+fastingbloodsugar_map = {0:"False", 1:"True"}
 
 restingrelectro_map = {
     0:"type 0: normal",
@@ -36,9 +36,9 @@ exerciseangia_map = {
 }
 
 slope_map = {
-    0: "type 1: upsloping",
-    1: "type 2: flat",
-    2: "type 3: downsloping"
+    1: "type 1: upsloping",
+    2: "type 2: flat",
+    3: "type 3: downsloping"
 }
 
 noofmajorvessels_map = {
