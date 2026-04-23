@@ -94,7 +94,7 @@ oldpeak = st.number_input("Oldpeak")
 
 slope = st.selectbox(
     "Slope of the peak exercise ST segment ",
-    options=[0,1, 2,3],
+    options=[1, 2,3],
     format_func=lambda x: slope_map[x]
 )
 
