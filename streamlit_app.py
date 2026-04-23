@@ -82,10 +82,10 @@ restingrelectro = st.selectbox(
     format_func=lambda x: restingrelectro_map[x]
 )
 
-maxheartrate = st.number_input("Max Heart Rate")
+maxheartrate = st.number_input("Maximum heart rate")
 
 exerciseangia = st.selectbox(
-    "Exercise Angina",
+    "Exercise induced angina ",
     options=[0, 1],
     format_func=lambda x: exerciseangia_map[x]
 )
@@ -93,13 +93,14 @@ exerciseangia = st.selectbox(
 oldpeak = st.number_input("Oldpeak")
 
 slope = st.selectbox(
-    "Slope",
+    "Slope of the peak exercise ST 
+segment ",
     options=[0, 1, 2],
     format_func=lambda x: slope_map[x]
 )
 
 noofmajorvessels = st.selectbox(
-    "No of Major Vessels",
+    "Number of major vessels ",
     options=[0, 1, 2, 3],
     format_func=lambda x: noofmajorvessels_map[x]
 )
