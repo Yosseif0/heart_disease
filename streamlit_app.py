@@ -19,7 +19,7 @@ chestpain_map = {
     0:"type 0: typical angina",
     1:"type 1: atypical angina",
     2:"type 2: non-anginal pain",
-    3:"type 3: asymptomatic)"   
+    3:"type 3: asymptomatic"   
             }
 
 fastingbloodsugar_map = {0:"False", 1:"True"}
@@ -94,7 +94,7 @@ oldpeak = st.number_input("Oldpeak")
 
 slope = st.selectbox(
     "Slope of the peak exercise ST segment ",
-    options=[1, 2,3],
+    options=[0,1, 2,3],
     format_func=lambda x: slope_map[x]
 )
 
