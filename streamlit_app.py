@@ -11,7 +11,7 @@ columns = joblib.load("columns.pkl")
 # UI TITLE & STYLING
 # ======================
 st.title("❤️ Heart Disease Prediction ")
-st.write("select the patient's clinical parameters below to predict heart disease risk.")
+st.write("select the patient's clinical parameters to predict heart disease risk.")
 
 gender_map = {0: "Female", 1: "Male"}
 
