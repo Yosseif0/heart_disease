@@ -134,4 +134,3 @@ if st.button("Predict Heart Health Status"):
         st.success(f"### Result: ✅ Low Risk of Heart Disease")
         st.info(f"Confidence Level: {prediction_proba[0][0]*100:.2f}%")
 
-st.caption("Note: This app is for informational purposes and is not a substitute for professional medical advice.")
