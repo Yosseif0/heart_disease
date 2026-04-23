@@ -77,7 +77,7 @@ fastingbloodsugar = st.selectbox(
 )
 
 restingrelectro = st.selectbox(
-    "Resting ECG",
+    "Resting electrocardiogram results",
     options=[0, 1, 2],
     format_func=lambda x: restingrelectro_map[x]
 )
