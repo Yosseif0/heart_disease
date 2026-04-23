@@ -26,7 +26,7 @@ fastingbloodsugar_map = {0:"False", 1:"True"}
 
 restingrelectro_map = {
     0:"type 0: normal",
-    1:"type 1: having ST-T wave abnormality (T wave inversions",
+    1:"type 1: having ST-T wave abnormality (T wave inversions)",
     2:"type 2: showing probable or definite left ventricular",
 }
 
