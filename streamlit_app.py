@@ -52,7 +52,7 @@ noofmajorvessels_map = {
 # INPUTS
 # ======================
 
-age = st.number_input("Age", 1, 120,50)
+age = st.number_input("Age", 1, 100,50)
 
 gender = st.selectbox(
     "Gender",
@@ -66,9 +66,9 @@ chestpain = st.selectbox(
     format_func=lambda x: chestpain_map[x]
 )
 
-restingBP = st.number_input("Resting Blood Pressure")
+restingBP = st.number_input("Resting Blood Pressure",50,250,125)
 
-serumcholestrol = st.number_input("Serum Cholesterol")
+serumcholestrol = st.number_input("Serum Cholesterol",100,600,200)
 
 fastingbloodsugar = st.selectbox(
     "Fasting Blood Sugar",
@@ -82,7 +82,7 @@ restingrelectro = st.selectbox(
     format_func=lambda x: restingrelectro_map[x]
 )
 
-maxheartrate = st.number_input("Maximum heart rate")
+maxheartrate = st.number_input("Maximum heart rate",50,300,160)
 
 exerciseangia = st.selectbox(
     "Exercise induced angina ",
@@ -90,7 +90,7 @@ exerciseangia = st.selectbox(
     format_func=lambda x: exerciseangia_map[x]
 )
 
-oldpeak = st.number_input("Oldpeak")
+oldpeak = st.number_input("Oldpeak",0,10,3)
 
 slope = st.selectbox(
     "Slope of the peak exercise ST segment ",
