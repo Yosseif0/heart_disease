@@ -52,7 +52,7 @@ noofmajorvessels_map = {
 # INPUTS
 # ======================
 
-age = st.number_input("Age", 1, 120)
+age = st.number_input("Age", 1, 120,50)
 
 gender = st.selectbox(
     "Gender",
