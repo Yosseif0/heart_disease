@@ -82,7 +82,7 @@ restingrelectro = st.selectbox(
     format_func=lambda x: restingrelectro_map[x]
 )
 
-maxheartrate = st.number_input("Maximum heart rate",50,300,160)
+maxheartrate = st.number_input("Maximum heart rate",50,240,160)
 
 exerciseangia = st.selectbox(
     "Exercise induced angina ",
